@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple Ajax Chat System - Himanshu Jaju</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<style type="text/css">
+.message
+{
+max-width:400px;
+float:left;
+width:auto;
+clear:both;
+text-align:left;
+display:inline-block;
+}
+.bot
+{
+float:right;
+text-align:left;
+}
+</style>
+</head>
+
+<body class="container">
+<div class="navbar navbar-inverse" style="margin-top:5px;">
+	<div class="navbar-inner">
+		<a class="brand" href="#"><strong>Simple Chat System</strong></a>
+		<a class="btn btn-primary pull-right" href="http://facebook.com/himanshu.jaju"><i class="icon-user icon-white"></i> <b>Follow Me On Facebook</b></a>
+	</div>
+	<div class="well" style="margin-top:10px;">
+		<center><h3>Chat Area</h3></center>
+		<center><p class="lead">You can test chat with the Chat Bot who will reply you with your answer!</p></center>
+		<div style="background-color:white;color:black;height:300px;overflow-y:scroll;" class="well" id="chatMSG">
+		</div>
+		<div class="well" style="background-color:white;color:black;height:80px;">
+			<textarea id="newMSG" class="btn-block" style="height:50px;resize:none;" placeholder="Enter Your Message."></textarea>
+			<a href="#" id="SEND" class="btn btn-block btn-success"><i class="icon-envelope icon-white"></i> <b>Send A New Message</b></a>
+		</div>
+	</div>
+</div>
+<hr/>
+<center>&copy;2013 Himanshu Jaju</center>
+<script src="js/jquery.js"></script>
+<script src="js/chat.js"></script>
+</body>
+
+</html>
