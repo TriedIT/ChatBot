@@ -39,3 +39,7 @@ ChatBot/
 
 - <https://piyushmehta.com/>
 - <https://github.com/piyush97>
+
+## Copyright and license
+
+Code and documentation copyright 2018  [Piyush Mehta](https://github.com/piyush97)
