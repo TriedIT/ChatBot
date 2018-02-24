@@ -8,6 +8,7 @@ $(document).ready(function(){
 			alert("Enter something to chat about! Don't be shy!");
 		else
 		{
+			//TODO:	Needs Improvement
 			if(msg=="Hello")
 			$("#chatMSG").append("<div class='message btn btn-info'><b> BOT : </b>"+msgStart+"</div>");
 		e.value="";
