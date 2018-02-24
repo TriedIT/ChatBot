@@ -1,4 +1,5 @@
 # CHAT BOT
+
 A simple ajax based chat system.
 Instructions
 ```
@@ -31,6 +32,8 @@ ChatBot/
 4. BOOTSTRAP
 5. Dialogflow
 6. NodeJs
+7. JavaScript 
+8. JQuery
 
 
 ## Creators
