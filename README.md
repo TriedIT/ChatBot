@@ -1,10 +1,18 @@
-simple-ajax-chat
+# Chat Bot
 ================
 
-A simple ajax based chat system. You can alter it and connect to the database and make your own chat system.
-
+A simple ajax based chat system.
 Open in local host by
 `python -m SimpleHTTPServer`
 
-## Under Modification By Piyush Mehta
 
+## Technologies used:
+1. AJAX
+2. CSS
+3. HTML
+4. BOOTSTRAP
+5. Dialogflow
+6. NodeJs
+
+
+## Under Modification By Piyush Mehta
