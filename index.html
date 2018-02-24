@@ -5,8 +5,10 @@
 <title>ChatBot-Piyush Mehta</title>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><style type="text/css">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script 
+	src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script 
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 .message
 {
@@ -20,6 +22,7 @@ display:inline-block;
 .bot
 {
 float:right;
+
 text-align:left;
 }
 </style>
@@ -28,16 +31,21 @@ text-align:left;
 
 <nav class="navbar navbar-dark bg-dark">
 	<div class="navbar-inner">
-		<a class="brand" href="#"><strong>ChatBot :D</strong></a>
+		<a class="brand" href="http://piyushmehta.me/ChatBot"><strong>ChatBot :D</strong></a>
 		<a class="btn btn-primary pull-right" href="http://facebook.com/pyushh"><b>Check Me Out On Facebook  <i class="fab fa-facebook-square"></i>
 		</b></a>
-		<a class="btn btn-primary pull-left" href="http://github.com/piyush97"><b>Follow Me On Github <i class="fab fa-github"></i></b></a>
+		<a class="btn btn-primary pull-right" href="http://github.com/piyush97"><b>Follow Me On Github <i class="fab fa-github"></i></b></a>
 	</div>
 	</nav>
 	<body class="container-fluid">
 	<div class="well" style="margin-top:10px;">
 		<center><h3>Chat Area</h3></center>
-		<center><p class="lead">You can test chat with the Chat Bot who will reply you with your answer!</p></center>
+		<center><p class="lead"><div class="alert alert-dark" role="alert">
+You can test chat with the Chat Bot who will reply you with your answer, this is just the initial stage...
+		After the Backend gets resolved 
+	it will know you and your emotions too...
+All rights reserved <a href="https://github.com/piyush97"> (Piyush Mehta)</a></div>
+</p></center>
 		<div style="background-color:white;color:black;height:300px;overflow-y:scroll;" class="well" id="chatMSG">
 		</div>
 		<div class="well" style="background-color:white;color:black;height:80px;">
@@ -47,7 +55,10 @@ text-align:left;
 	</div>
 </div>
 <hr/>
-	<center>&copy;2018<a href="https://github.com/himanshujaju/"> Himanshu Jaju </a> and <a href="http://piyushmehta.com">Piyush Mehta</a></center>
+	<center>&copy;2018<a href="https://github.com/himanshujaju/"> Himanshu Jaju </a> and <a href="http://piyushmehta.com">Piyush Mehta</a>
+		<br><br><a href="mailto:someone@example.com?Subject=Hello%20again">
+		<button type="Contact Me?" class="btn btn-lg btn-danger" data-toggle="popover" title="Mail Me"  >MAIL ME?</button></a></center>
+
 <script src="js/jquery.js"></script>
 <script src="js/chat.js"></script>
 </body>
