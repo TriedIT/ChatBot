@@ -2,6 +2,8 @@ $(document).ready(function(){
 	$("a#SEND").click(function(){
 		var e=document.getElementById("newMSG");
 		var msg=e.value;
+		if(msg=="Hello")
+			$("#chatMSG").append("<div class='message btn btn-info'><b> BOT : </b>"Hi, What's Your name?"</div>");
 		if(msg.length==0)
 			alert("Enter something to chat about! Don't be shy!");
 		else
