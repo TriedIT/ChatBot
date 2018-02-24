@@ -9,7 +9,7 @@ Instructions
 ```
 
 ## STATUS:
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)]()
+[![Build Status](https://travis-ci.org/piyush97/ChatBot.svg?branch=master)](https://travis-ci.org/piyush97/ChatBot.svg?branch=master)
 
 
 ## What's included
