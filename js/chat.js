@@ -3,12 +3,13 @@ $(document).ready(function(){
 		var e=document.getElementById("newMSG");
 		var msg=e.value;
 		var msgStart="Hi, What's Your Name?";
-		if(msg=="Hello")
-			$("#chatMSG").append("<div class='message btn btn-info'><b> BOT : </b>"+msgStart+"</div>");
+		
 		if(msg.length==0)
 			alert("Enter something to chat about! Don't be shy!");
 		else
 		{
+			if(msg=="Hello")
+			$("#chatMSG").append("<div class='message btn btn-info'><b> BOT : </b>"+msgStart+"</div>");
 		e.value="";
 		$("#chatMSG").append("<div class='message btn btn-info'><b> ME : </b>"+msg+"</div>");
 		$("#chatMSG").append("<div class='message bot btn btn-info'><b> BOT : </b>"+msg+"</div>");
