@@ -34,7 +34,7 @@ ChatBot/
 6. NodeJs
 7. JavaScript 
 8. JQuery
-
+9. Animate.CSS
 
 ## Creators
 

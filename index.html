@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <title>ChatBot-Piyush Mehta</title>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	  <link rel="stylesheet" href="css/animate.css">
+	   <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -25,20 +26,22 @@ float:right;
 
 text-align:left;
 }
+
 </style>
 </head>
 
 
 <nav class="navbar navbar-dark bg-dark">
 	<div class="navbar-inner">
-		<a class="brand" href="http://piyushmehta.me/ChatBot"><strong>ChatBot :D</strong></a>
-		<a class="btn btn-primary pull-right" href="http://facebook.com/pyushh"><b>Check Me Out On Facebook  <i class="fab fa-facebook-square"></i>
+		<a class="brand" class="animated infinite bounce"  href="http://piyushmehta.me/ChatBot"><strong><h1>ChatBot :D</h1></strong></a>
+		<a class="btn btn-primary pull-left" href="http://facebook.com/pyushh"><b>Check Me Out On Facebook  <i class="fab fa-facebook-square"></i>
 		</b></a>
 		<a class="btn btn-primary pull-right" href="http://github.com/piyush97"><b>Follow Me On Github <i class="fab fa-github"></i></b></a>
 	</div>
 	</nav>
 	<body class="container-fluid">
-	<div class="well" style="margin-top:10px;">
+
+	<div class="well" 	class="col-sm-4" style="margin-top:10px;">
 		<center><h3>Chat Area</h3></center>
 		<center><p class="lead"><div class="alert alert-dark" role="alert">
 You can test chat with the Chat Bot who will reply you with your answer, this is just the initial stage...
@@ -49,7 +52,7 @@ All rights reserved <a href="https://github.com/piyush97"> (Piyush Mehta)</a></d
 		<div style="background-color:white;color:black;height:300px;overflow-y:scroll;" class="well" id="chatMSG">
 		</div>
 		<div class="well" style="background-color:white;color:black;height:80px;">
-			<textarea id="newMSG" class="btn-block" style="height:50px;resize:none;" placeholder="Enter Your Message."></textarea>
+			<textarea id="newMSG" class="btn-block" class="animated infinite bounce" style="height:50px;resize:none;" placeholder="Enter Your Message."></textarea>
 			<a href="#" id="SEND" class="btn btn-block btn-success"><b>Send A New Message</b></a>
 		</div>
 	</div>
