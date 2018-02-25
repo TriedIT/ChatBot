@@ -36,6 +36,8 @@ ChatBot/
 8. JQuery
 9. Animate.CSS
 
+[logo]:http://www.itechnion.com/index.php?do=jquery "JQUERY"
+[logo]:https://worldvectorlogo.com/logo/javascript "JS"
 ## Creators
 
 **Piyush Mehta**
