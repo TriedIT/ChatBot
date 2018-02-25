@@ -1,6 +1,6 @@
 # CHAT BOT
 
-A simple ajax based chat system.
+A simple AJAX based chat system.
 Instructions
 ```
     $ git clone https://github.com/piyush97/ChatBot.git
@@ -18,11 +18,17 @@ Within the download you'll find the following directories and files. You'll see 
 
 ```
 ChatBot/
+├── LICENSE
+├── .travis.yml
+├── readme.md
+├── index.html
 ├── css/
+│   ├── Animate.css
 │   └──  bootstrap.css
 └── js/
     ├── chat.js
     └── jquery.js
+    
    
 ```
 ## Technologies used:
@@ -36,8 +42,6 @@ ChatBot/
 8. JQuery
 9. Animate.CSS
 
-[logo]:http://www.itechnion.com/index.php?do=jquery "JQUERY"
-[logo]:https://worldvectorlogo.com/logo/javascript "JS"
 ## Creators
 
 **Piyush Mehta**
